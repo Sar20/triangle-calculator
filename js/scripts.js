@@ -9,7 +9,7 @@ $(document).ready(function() {
 
       if (sideA == sideB && sideB == sideC) {
         alert("Equalateral");
-      } else if (((sideA == sideB && sideA != sideC) || (sideA != sideB && sideB == sideC) || (sideA == sideC && sideA && sideC != sideB))) {
+      } else if (((sideA == sideB && sideA != sideC) || (sideA != sideB && sideB == sideC) || (sideC == sideA && sideC != sideB))) {
         alert("Isosceles");
       } else if (sideA != sideB != sideC != sideA) {
         alert("Scaline");
